@@ -120,8 +120,6 @@ nav h1 a {
     display: block;
   }
 
-
-
   /* Display list items side by side */
   #breadcrumb li {
     display: inline;
@@ -269,7 +267,11 @@ nav h1 a {
   .inside #footer {
     bottom: 0;
     position: absolute;
-    width: 50%;
+    width: 100%;
+    /* Fixed */
+    right: 0px;
+    padding-top: 16px;
+    padding-bottom: 15px;
   }
 
   #restaurant-name {
@@ -311,10 +313,11 @@ nav h1 a {
     border-top: 1px solid #fff;
     padding: 140px 40px 30px;
     width: 50%;
+    padding-left: 20px;
   }
 
   #reviews-container {
-    padding: 30px 40px 80px;
+    padding: 30px 40px 80px 20px;;
   }
 
   #reviews-container h2 {
@@ -340,6 +343,8 @@ nav h1 a {
     padding: 0 20px 20px;
     position: relative;
     width: 85%;
+    /* Fixed */
+    padding-right: 10px;
   }
 
   #reviews-list li p {
