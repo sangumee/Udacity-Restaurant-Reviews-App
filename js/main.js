@@ -170,6 +170,7 @@ createRestaurantHTML = (restaurant) => {
   name.innerHTML = restaurant.name;
   li.append(name);
 
+  // Fixed Add cuisine Type
   const cuisineType = document.createElement('p');
   cuisineType.innerHTML = 'Cuisine Type : ' + DBHelper.cuisineTypeForRestaurant(restaurant);
   li.append(cuisineType);

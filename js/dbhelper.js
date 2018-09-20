@@ -153,11 +153,11 @@ class DBHelper {
     return (`/img/${restaurant.photograph}`);
   }
 
+  // Fixed
   static imageAltForRestaurant(restaurnat){
     return (`${restaurnat.name}`);
 
   }
-
   static cuisineTypeForRestaurant(restaurant){
     return (`${restaurant.cuisine_type}`);
   }
