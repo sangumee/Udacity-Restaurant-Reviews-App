@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 80 // Change this to your server port
-    return `http://localhost:${port}/data/restaurants.json`;
+    return `https://sangumee.github.io:${port}/data/restaurants.json`;
   }
 
   /**
