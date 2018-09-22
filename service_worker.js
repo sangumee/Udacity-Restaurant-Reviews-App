@@ -46,7 +46,10 @@ self.addEventListener('activate', function (event) {
 
 self.addEventListener('fetch', function (event) {
     event.respondWith(
-        caches.match(event.request)
+        caches.match(event.request,{
+            // ignore the query url
+            ignoreSearch:true
+        })
         .then(function (response) {
             return response || fetch(event.request);
         })
