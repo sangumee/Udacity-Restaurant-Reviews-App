@@ -1,4 +1,4 @@
-# Udacity-Restaurant-Reviews-App ![](https://img.shields.io/badge/Code%20Statue-Open-brightgreen.svg)
+# Udacity-Restaurant-Reviews-App ![](https://img.shields.io/badge/Code%20Statue-CLose-red.svg)
 This repository is the code that I created during the Udacity Restaurant Reviews App. THe project uses the MapBox API and provided Json data to map information about restaurants.
 
 # Demo
